@@ -17,8 +17,8 @@ body {
   }
   
   .choice-img {
-    width: 100px; /* Adjust the width and height based on your images */
-    height: 100px;
+    width: 150px; 
+    height: 150px;
     margin: 10px;
     cursor: pointer;
     border-radius: 8px;
@@ -33,5 +33,31 @@ body {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+  }
+  
+
+  
+  .player {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .player p {
+    margin: 5px 0;
+  }
+  
+  #results {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #result-left,
+  #result-right {
+    flex-grow: 1;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
   }
   
